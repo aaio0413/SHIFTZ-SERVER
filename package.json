@@ -1,0 +1,23 @@
+{
+  "name": "shiftz",
+  "version": "1.0.0",
+  "description": "React app that curate songs by preset sorting information",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server/index",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/aaio0413/SHIFTZ-SERVER.git",
+  "author": "AAIO1992 <takahiro04kawaguchi13@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaio0413/SHIFTZ-SERVER/issues"
+  },
+  "homepage": "https://github.com/aaio0413/SHIFTZ-SERVER#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.8"
+  }
+}
